@@ -31,7 +31,7 @@ Each line expresses the fact that a particular type of emergency begins at a par
 Since the objective is to test emergency responses, you must expect that there will be actual fire fighters, flood rescuers, and other responders participating in the exercise. They will be travelling to the locations of the emergencies with all their equipment, following their usual procedures, and pretending to handle the problems once there. Each different team of responders will communicate with the program to say who they are and where they are.
 
 ## How To Run The Program
- To run the program, open the directory in the terminal and run `./gradlew run --args="filename.txt"` for Linux environment *or* `gradle run --args="filename.txt"` for Windows environment. Make sure to place the text file in the root of the directory (this is already done, see `emg.txt`) Note : Gradle should be installed first. [Click here](https://gradle.org/install/) to see how to install gradle.
+ To run the program, open the directory in the terminal and run `./gradlew run --args="filename.txt"` for Linux environment *or* `gradle run --args="filename.txt"` for Windows environment. Make sure to place the text file in the root of the directory (this is already done, see `emg.txt`) You can edit this text file to your own data by following [Generating Emergencies](#generating-emergencies) Note : Gradle should be installed first. [Click here](https://gradle.org/install/) to see how to install gradle.
 
 ### Indexed in Turn-It In Global Referencing Scheme
 
