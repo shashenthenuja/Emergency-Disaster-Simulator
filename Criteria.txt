@@ -1,0 +1,17 @@
+2. I have used separate packages for each classes responsibilities
+        responder package contains all the files regarding the responder implementation and interface.
+        file package for class regarding reading file data, sorting and storing.
+        control package contains the simulation implementation
+        states package contains all the state classes and its interface
+        types package contains all classes regarding each emergency type which includes constants given in the specification
+	EmergencySim.java contains the main method of the program
+
+3. I have logged most of the errors including the invalid poll data, and invalid file data. I have also logged standard points of time in the program
+(simulation starting information, simulation ending information). I have made custom exception classes for file read and controlling of the simulation
+
+4. I have used dependency injection for most of my code in the main method and other classes but I haven't used it in the state pattern, since it has been given as an exception when it comes to state pattern according to the answers in the Piazza forum
+
+5. I have not used the observer pattern since I started implementing the state pattern first and debugging my code which took most of my time and did not have time to implement the observer pattern
+
+6. I have fully implemented the state pattern which is used to transition between the start, end, high, and low states of the program. Every state implements the
+EmgStates interface. The states are controlled by the ControllerHander class to change between the state accordingly
